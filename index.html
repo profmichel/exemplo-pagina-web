@@ -5,71 +5,109 @@
   <title>Evolução dos Computadores</title>
   <style>
     body {
-      font-family: sans-serif;
-      max-width: 500px;
+      font-family: Arial, sans-serif;
+      max-width: 600px;
       margin: 20px auto;
-      padding: 10px;
+      padding: 15px;
+      background-color: #f4f6f9;
+      color: #333;
     }
 
-    /* Estilização simples da tag <article> */
+    h1 {
+      text-align: center;
+      color: #1a365d;
+    }
+
+    /* Estilização dos artigos de postagem */
     article {
-      background-color: #f0f0f0;
-      padding: 15px;
-      margin-bottom: 15px;
-      border-radius: 5px;
+      background-color: #ffffff;
+      padding: 20px;
+      margin-bottom: 25px;
+      border-radius: 8px;
+      border-left: 5px solid #2b6cb0; /* Detalhe colorido no canto esquerdo */
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
     }
 
     h2 {
       margin-top: 0;
-      color: #333;
+      color: #2b6cb0;
     }
 
+    /* Estilo para ajustar e padronizar as imagens */
+    article img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 6px;
+      margin: 10px 0;
+    }
+
+    p {
+      line-height: 1.6;
+      color: #4a5568;
+    }
+
+    /* Estilização do botão de curtir */
     button {
-      padding: 8px 12px;
+      background-color: #edf2f7;
+      color: #2d3748;
+      border: 1px solid #cbd5e0;
+      padding: 10px 15px;
+      border-radius: 5px;
       cursor: pointer;
+      font-weight: bold;
+    }
+
+    button:hover {
+      background-color: #e2e8f0;
     }
   </style>
 </head>
 <body>
 
-  <h1>Evolução dos Computadores</h1>
+  <h1>A Evolução dos Computadores</h1>
 
   <!-- Postagem 1 -->
   <article>
-    <h2>1. Válvulas (1940)</h2>
-    <p>Os primeiros computadores digitais ocupavam salas inteiras e usavam válvulas de vidro.</p>
+    <h2>1. Válvulas e Primeiros Gigantes (1940)</h2>
+    <img src="https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQKeUh-MsIgUKhQYnsEJuHmPnEGO56iAICURacd4RWmQBkB0Ib7cGzFqjhisfnh62LKvghKF-NlWOIhvWQ" alt="Computador ENIAC com válvulas">
+    <p>Nesta primeira geração, os computadores digitais como o famoso <strong>ENIAC</strong> usavam milhares de válvulas de vidro. Essas máquinas ocupavam galpões inteiros, consumiam muita energia elétrica e esquentavam excessivamente, exigindo constante manutenção.</p>
     <button type="button">❤️ Curtir | <span>0</span></button>
   </article>
 
   <!-- Postagem 2 -->
   <article>
-    <h2>2. Transistores (1950)</h2>
-    <p>Substituíram as válvulas, tornando os computadores menores, mais rápidos e mais baratos.</p>
+    <h2>2. A Revolução dos Transistores (1950)</h2>
+    <img src="https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcRR0PHtTjNXBAL5KoMbf-z4ovAqHiZUrSvMmlaBMYLTe6CBhWU8iDup6y5z9vCAs2y5E4sBeE_jRUib9XQ" alt="Computador antigo com transistores">
+    <p>A invenção do transistor substituiu as frágeis válvulas de vidro. Isso permitiu que os computadores se tornassem drasticamente menores, muito mais rápidos, mais baratos e com menor consumo de energia, abrindo caminho para o uso em grandes empresas.</p>
     <button type="button">❤️ Curtir | <span>0</span></button>
   </article>
 
   <!-- Postagem 3 -->
   <article>
-    <h2>3. Chips de Silício (1960)</h2>
-    <p>Os circuitos integrados permitiram colocar milhares de componentes em uma pequena placa.</p>
+    <h2>3. Circuitos Integrados e Chips (1960)</h2>
+    <img src="https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcTljxHUtiv1Wtt1gXN7xpT3JOKbV51KBev8NxzpomztUmJDsoLYGNR1745XwpFeUSA4wtPvdbV5im8FaDU" alt="Placa com circuito integrado">
+    <p>Com a criação dos circuitos integrados, foi possível reunir milhares de componentes eletrônicos miniaturizados dentro de um único chip de silício. A computação deu um salto em velocidade e eficiência, permitindo a criação dos primeiros sistemas operacionais.</p>
     <button type="button">❤️ Curtir | <span>0</span></button>
   </article>
 
   <!-- Postagem 4 -->
   <article>
-    <h2>4. Computador Pessoal (1970)</h2>
-    <p>Surgem os microprocessadores e os PCs de mesa para uso em casas e escritórios.</p>
+    <h2>4. A Era do Computador Pessoal (1970 - 1990)</h2>
+    <img src="https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcQODZU4-EB-FAh1eo1mSw_THGCoPGlrwiDOt9nTSYL7h1PZJaIH7PMz9hVhaVoEDsn3zSaCT6f5qwA6njA" alt="Computador pessoal antigo Apple II">
+    <p>O surgimento do microprocessador permitiu colocar toda a unidade central de processamento (CPU) em um só lugar. Isso viabilizou os computadores pessoais (PCs) de mesa, trazendo o uso de teclados, monitores e interfaces visuais para dentro de casas e escritórios.</p>
     <button type="button">❤️ Curtir | <span>0</span></button>
   </article>
 
   <!-- Postagem 5 -->
   <article>
-    <h2>5. Notebooks e Celulares (2000+)</h2>
-    <p>A computação se tornou portátil e conectada à internet 24 horas por dia.</p>
+    <h2>5. Mobilidade e Inteligência Artificial (2000+)</h2>
+    <img src="https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcSTLPIXM1fjt2sM1DFgTwONAxZVOjR8I6slHJfTQbAgpt9MHP8DOxzza0iP8XyCMxPO9nTi1SOOCnkvqHs" alt="Notebook e smartphone modernos">
+    <p>Hoje, a computação se tornou móvel e conectada. Dispositivos ultraleves, como notebooks e smartphones, possuem mais poder de processamento do que supercomputadores do passado, alimentando tecnologias como computação em nuvem e Inteligência Artificial no nosso cotidiano.</p>
     <button type="button">❤️ Curtir | <span>0</span></button>
   </article>
 
-  <!-- Script exato do aluno -->
+  <!-- Script fornecido sem alterações na lógica original -->
   <script>
     const botoes = document.querySelectorAll("button");
 
